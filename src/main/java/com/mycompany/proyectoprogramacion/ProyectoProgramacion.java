@@ -10,7 +10,7 @@ public class ProyectoProgramacion {
             conn = DriverManager.getConnection("jdbc:sqlite:test01.sqlite");
 
             if (conn != null)
-		System.out.println("Conexion a base de datos ... Ok");
+		System.out.println("Conexion con la base de datos exitosa");
             else
                 System.out.println("Conexion a base de datos: problemas!");
 
@@ -27,4 +27,10 @@ public class ProyectoProgramacion {
             System.out.println(ex);
     }
   }
+
+
+
+
+
+
 }
